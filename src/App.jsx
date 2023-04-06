@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <Carousel />
+      {/* <Carousel /> */}
     </div>
   )
 }
