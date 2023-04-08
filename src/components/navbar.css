@@ -1,7 +1,7 @@
 nav {
     height: 5rem;
     width: 100vw;
-    background: var(--color-primary);
+    background: var(--color-gray-600) url("../assets/bg_texture.png");
     backdrop-filter: blur(15px);
     display: grid;
     place-items: center;
@@ -28,6 +28,10 @@ nav {
     display: block;
 }
 
+.logo img{
+    width: 4rem;
+}
+
 .nav__links {
     display: flex;
     gap: 3.5rem;
@@ -39,7 +43,7 @@ nav {
 }
 
 .nav__links a:hover {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .active-nav {
@@ -51,7 +55,7 @@ nav {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: var(--color-primary);
+    background: var(--color-gray-600);
     position: absolute;
     left: calc(50% - 0.6em);
     transform: rotate(45deg);

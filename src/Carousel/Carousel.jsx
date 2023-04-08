@@ -2,8 +2,8 @@ import React from 'react'
 
 
 
-import bgdonut1 from './image/bg-donut-1.png'
-import bgdonut2 from './image/bg-donut-2.png'
+import bgCandidate1 from '../assets/ESSA VOTES.png'
+import bgCandidate2 from '../assets/ESSA VOTES.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, EffectCoverflow, Autoplay } from 'swiper'
@@ -15,30 +15,30 @@ import './Carousel.css'
 
 const slider = [
     {
-        title: "Donut 1",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1612240498936-65f5101365d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        title: "Candidate 1",
+        description: "Our Candidate Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
+        url: "https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
       },
       {
-        title: "Donut 2",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+        title: "Candidate 2",
+        description: "Our Candidate Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
+        url: "https://images.unsplash.com/photo-1590086782957-93c06ef21604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
       },
       {
-        title: "Donut 3",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1646615077267-97c6088b74d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80"
+        title: "Candidate 3",
+        description: "Our Candidate Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
+        url: "https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
       },
     
       {
-        title: "Donut 4",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1631397833242-fc6213046352?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        title: "Candidate 4",
+        description: "Our Candidate Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
+        url: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
       },
       {
-        title: "Donut 5",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1533137138-ba67dc90d752?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        title: "Candidate 5",
+        description: "Our Candidate Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
+        url: "https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
       },
 ]
 
@@ -47,11 +47,11 @@ const Carousel = () => {
     <div className='carousel'>
         <div>
             <div className='carousel-content'>
-                <span>discover</span>
-                <h1>Sweet Donut Heaven</h1>
+                <span>welcome</span>
+                <h1>Essa Electoral <br /> Candidate</h1>
                 <hr />
-                <p>Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.</p>
-                <a href="#" className='slider-btn'>download app</a>
+                <p>Our Candidate Collection Offers a Lorem ipsum dolor sit amet ipsam, natus delectus, officiis quaerat totam!</p>
+                <a href="#" className='slider-btn'>Vote now</a>
             </div>
         </div>
 
@@ -104,8 +104,8 @@ const Carousel = () => {
             }
         </Swiper>
 
-        <img src={bgdonut1} alt="bg image" className='bgdonut1' />
-        <img src={bgdonut2} alt="bg image" className='bgdonut2' />
+        <img src={bgCandidate1} alt="bg image" className='bgdonut1' />
+        <img src={bgCandidate2} alt="bg image" className='bgdonut2' />
     </div>
   )
 }
