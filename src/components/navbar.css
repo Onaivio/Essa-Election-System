@@ -82,6 +82,7 @@ nav {
         flex-direction:column;
         gap: 0;
         perspective: 400px;
+        
     }
 
     .active-nav, .active-nav::after {
@@ -100,7 +101,7 @@ nav {
     }
 
     .nav__links li a {
-        background: var(--color-primary);
+        background: var(--color-gray-600);
         height: 100%;
         width: 100%;
         display: flex;
