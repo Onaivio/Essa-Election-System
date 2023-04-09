@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Logo from "../assets/logo.png"
+import Logo from "../assets/ESSA VOTES.png"
 import { FaLinkedin } from "react-icons/fa"
 import { FaFacebookF } from "react-icons/fa"
 import { AiOutlineTwitter } from "react-icons/ai"
@@ -43,7 +43,7 @@ const Footer = () => {
         <article>
             <h4>Get in touch</h4>
             <Link to ="/contact">Contact</Link>
-            <Link to ="/s">Support</Link>
+            <Link to ="/support">Support</Link>
         </article>
         </div>
         <div className="footer__copyright">

@@ -10,16 +10,16 @@ import NotFound from './pages/NotFound/NotFound'
 function App() {
 
   return (
-    <>
+    <div>
     <BrowserRouter>
       <Navbar />
       <Routes>
         <Route index element= {<Home />} />
-        <Route path = "*" element = {<NotFound/>} />
+        <Route path = "*" element = {<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
-    {/* <Footer /> */}
-    </>
+    </div>
   )
 }
 
